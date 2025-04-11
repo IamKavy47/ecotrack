@@ -1,1 +1,1 @@
-Thi si s carbon footprint calculator
+This is a carbon footprint calculator
