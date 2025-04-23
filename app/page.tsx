@@ -48,7 +48,7 @@ export default function Home() {
                   <div className="relative w-full max-w-[400px] aspect-square">
                     <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 to-teal-500/20 rounded-full blur-3xl"></div>
                     <FuturisticCard className="relative p-4 md:p-6 h-full w-full flex items-center justify-center">
-                      <div className="w-full max-w-[300px] md:max-w-[400px] aspect-square bg-[url('/placeholder.svg?height=400&width=400')] bg-contain bg-center bg-no-repeat"></div>
+                      <div className="w-full max-w-[300px] md:max-w-[400px] aspect-square bg-[url('/ecotrack.png?height=400&width=400')] bg-contain bg-center bg-no-repeat"></div>
                     </FuturisticCard>
                   </div>
                 </div>
@@ -177,14 +177,14 @@ export default function Home() {
                     <Link href="/signup">Join EcoTrack Today</Link>
                   </FuturisticButton>
                 </div>
-                <div className="flex items-center justify-center mt-8 lg:mt-0">
+                {/* <div className="flex items-center justify-center mt-8 lg:mt-0">
                   <div className="relative w-full max-w-[500px] aspect-video">
                     <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 to-teal-500/20 rounded-2xl blur-3xl"></div>
                     <FuturisticCard className="relative p-4 md:p-6 h-full w-full flex items-center justify-center">
                       <div className="w-full max-w-[300px] md:max-w-[400px] aspect-video bg-[url('/placeholder.svg?height=225&width=400')] bg-contain bg-center bg-no-repeat"></div>
                     </FuturisticCard>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </section>
