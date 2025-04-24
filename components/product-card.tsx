@@ -36,7 +36,7 @@ export function ProductCard({
           {image ? (
             <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${image})` }} />
           ) : (
-            <div className="absolute inset-0 bg-[url('/placeholder.svg?height=192&width=400')] bg-cover bg-center" />
+            <div className="absolute inset-0 bg-[url('/bottle.jpg?height=192&width=400')] bg-cover bg-center" />
           )}
 
           {isNew && (
